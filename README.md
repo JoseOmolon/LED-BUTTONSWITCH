@@ -22,12 +22,6 @@ You’re bridging the physical world and code. A button press becomes logic. A s
 
 ![Components](Components.jpg)
 
-- Arduino Uno  
-- Push button  
-- LED  
-- 220Ω resistor  
-- Breadboard + jumper wires  
-
 ---
 
 ## 📈 Schematic
