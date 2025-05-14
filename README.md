@@ -70,3 +70,11 @@ void loop() {
 The button is the trigger. The LED is the response. No delay, no guesswork—just raw, digital cause-and-effect. It’s the bedrock of all interactive embedded systems.
 
 ---
+## 🎬 Final Result
+Push the button → LED turns on.
+Release the button → LED turns off.
+Simple. Immediate. Effective.
+
+
+
+# 🎥 Full Video: 
