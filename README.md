@@ -1,41 +1,49 @@
-# Button-Controlled LED – Leveling Up From the Blink
+# Button-Controlled-LED  
+## Digital Input. Direct Output. Instant Response.
 
-This project is the next step in my embedded systems journey. No more passive blinking — now **I control** when the light turns on. Press the button, light turns on. Release it, light turns off. It’s basic logic, but it’s a crucial leap: input meets output.
+**Fifth step** in the embedded grind. This isn’t blinking on a timer — it’s about **control on demand**. **1 button. 1 LED. Immediate reaction.** Digital input triggering digital output, in real time.
 
-## 🧭 Why I'm Doing This
+---
 
-I’m not here to be a hobbyist. I’m here to build mastery from the ground up. That means understanding how **input devices** (like buttons) interact with **output devices** (like LEDs), through code, hardware, and logic. No guessing. No copy-paste culture. Just earned knowledge.
+## 🧭 Why This Matters
 
-### ⚠️ Hard Truths From This Build
-- **Inputs are noisy.** Buttons bounce. If you think you can read them clean without knowing what debounce is, you’re wrong.
-- **DigitalRead isn’t magic.** It’s logic level detection. Know your HIGHs and LOWs, or get lost in the fog.
-- **Power flows, but only if you wire it right.** Reverse the button wiring? Expect nothing but silence.
+You’re bridging the physical world and code. A button press becomes logic. A signal becomes light. Every system—whether a washing machine or a rocket—starts with this cause-and-effect loop.
+
+### ⚙️ What I Learned
+
+- `digitalRead()` captures real-time button state  
+- `digitalWrite()` sets hardware response  
+- Pins need the right `pinMode()`  
+- Input/output flow is the core of embedded logic  
+
+---
 
 ## 🔩 Parts I Used
 
-![](Componentsparts.png)
+![Components](Components.jpg)
 
-- 1x Arduino Uno
-- 1x Push Button
-- 1x LED (any color, I used red)
-- 1x 220Ω Resistor for LED
-- Jumper wires
-- Breadboard
+- Arduino Uno  
+- Push button  
+- LED  
+- 220Ω resistor  
+- Breadboard + jumper wires  
 
-## 📈 Schematics
+---
 
-![](Schematics.png)
+## 📈 Schematic
 
-## 🛠️ Wiring It Up
+![Schematic](Schematic.png)
 
-![](ComponentsAssembly.gif)
+---
 
-- Button connected to **digital pin 2**
-- LED connected to **digital pin 13** through a resistor
-- Use **pull-down** or **internal pull-up** resistor logic (I used default input without internal pullup for now)
+## 🛠️ Wiring
 
-## 🧠 My Code
-This is the brain of it all. A simple input-to-output reaction chain:
+![Wiring](Wiring.gif)
+
+---
+
+## 👨‍💻 The Code
+
 ```cpp
 const int buttonPin = 2;
 const int ledPin = 13;
