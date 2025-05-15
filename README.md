@@ -67,6 +67,8 @@ The button is the trigger. The LED is the response. No delay, no guesswork—jus
 ## 🎬 Final Result
 
 ![Result](Result.gif)
+
+
 Push the button → LED turns on.
 Release the button → LED turns off.
 Simple. Immediate. Effective.
