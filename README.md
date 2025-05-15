@@ -38,6 +38,8 @@ You’re bridging the physical world and code. A button press becomes logic. A s
 
 ## 👨‍💻 The Code
 
+![Coding](Coding.gif)
+
 ```cpp
 const int buttonPin = 2;
 const int ledPin = 13;
