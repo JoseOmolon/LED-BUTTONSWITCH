@@ -77,4 +77,4 @@ Simple. Immediate. Effective.
 
 
 
-# 🎥 Full Video: 
+# 🎥 Full Video:  https://youtu.be/u18720nr-sQ
