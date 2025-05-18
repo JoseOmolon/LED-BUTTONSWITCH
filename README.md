@@ -73,7 +73,7 @@ The button is the trigger. The LED is the response. No delay, no guesswork—jus
 
 Push the button → LED turns on.
 Release the button → LED turns off.
-Simple. Immediate. Effective. 1234
+Simple. Immediate. Effective. 123
 
 
 
