@@ -5,7 +5,7 @@
 
 ---
 
-## 🧭 Why This Matters 12
+## 🧭 Why This Matters 1
 
 You’re bridging the physical world and code. A button press becomes logic. A signal becomes light. Every system—whether a washing machine or a rocket—starts with this cause-and-effect loop.
 
