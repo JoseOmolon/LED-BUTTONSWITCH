@@ -1,4 +1,4 @@
-# Button-Controlled-LED  1
+# Button-Controlled-LED  
 ## Digital Input. Direct Output. Instant Response.
 
 **Fifth step** in the embedded grind. This isn’t blinking on a timer — it’s about **control on demand**. **1 button. 1 LED. Immediate reaction.** Digital input triggering digital output, in real time.
